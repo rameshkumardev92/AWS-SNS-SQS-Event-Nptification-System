@@ -1,0 +1,9 @@
+Steps:
+1. Created SNS topics for publishing events.
+2. Created SQS standard queue for message consumption.
+3. Subscribed SQS queue to SNS topic
+4. Configured queue policies to allow SNS messages.
+5. Published test message to SNS.
+6. Verified message received in SQS.
+7. Monitored messages and metrics using Cloud Watch.
+8. Documented architecture and testing results.
